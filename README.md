@@ -5,4 +5,4 @@ Several files for the system included:
 1. experiment.ipynb : a file where experiment (such as exploratory data analysis, data preprocessing, modelling, model evaluating, algorithm testing) is conducted.
 2. backend.py : a FastAPI backend to run logical provocator detection algorithm.
 3. frontend.py: a Streamlit frontent for user interface and receive output result from backend.
-4. demo_data_final.csv : data example format for the system input
+4. demo_data_final.csv : an indonesian social media comment data example with appropriate columns for the system input
