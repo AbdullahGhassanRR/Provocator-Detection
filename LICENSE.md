@@ -81,7 +81,7 @@ Use other than academic and non-commercial use as above is deemed to be commerci
 ## END OF TERMS AND CONDITIONS
 
 ## Appendix: Suggested code header and licensing information
-Provocator-Detection is © 2025, aghassanrr
+Provocator-Detection © 2025, aghassanrr
 
 Provocator-Detection is published and distributed under the Academic Software License v1.0 (ASL).
 
