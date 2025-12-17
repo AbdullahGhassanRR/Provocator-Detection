@@ -14,7 +14,7 @@ Several files for the system included:
 #### for backend:
 0. open the first CLI (e.g. cmd, anaconda prompt) 
 1. type cd path/to/downloaded/files
-2. type conda activate <anaconda_envs> (must have uvicorn and all backend code dependencies)
+2. type conda activate <first_anaconda_envs> (must have uvicorn and all backend code dependencies)
 3. type uvicorn backend:app --reload  
 3.1. copy-paste or ctrl + click the given URl from CLI output
 3.2. on the browser tab, type \docs on the endpoint (e.g. localhost:0000\docs)
@@ -26,7 +26,7 @@ Several files for the system included:
 #### for frontend
 8. paste request URL in file frontend.py on line where this code written: requests.post(url="<paste-here>", ...)
 9. type cd path/to/downloaded/files
-10. type conda activate <anaconda_envs> (must be different enviroment from the backend which have streamlit and all frontend code dependencies)
+10. type conda activate <second_anaconda_envs> (due to dependencies conflict, frontend enviroment must be different from the backend. this frontend enviroment which have streamlit and all frontend code dependencies)
 11. streamlit run frontend.py
 12. copy-paste or ctrl + click the given URL from CLI output.
 
