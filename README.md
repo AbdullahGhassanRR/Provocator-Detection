@@ -30,3 +30,6 @@ Several files for the system included:
 11. streamlit run frontend.py
 12. copy-paste or ctrl + click the given URL from CLI output.
 
+# Contact Me
+abdullah.rachmat@binus.ac.id
+
