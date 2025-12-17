@@ -10,7 +10,7 @@ Several files for the system included:
 - username column collected from https://www.kaggle.com/datasets/dionisiusdh/covid19-indonesian-twitter-sentiment
 - with dummy date
 
-# How to run locally
+# How to run locally with Anaconda
 #### for backend:
 0. open the first CLI (e.g. cmd, anaconda prompt) 
 1. type cd path/to/downloaded/files
