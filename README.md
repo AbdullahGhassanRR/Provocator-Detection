@@ -26,7 +26,7 @@ Several files for the system included:
 #### for frontend
 8. paste request URL in file frontend.py on line where this code written: requests.post(url="<paste-here>", ...)
 9. type cd path/to/downloaded/files
-10. type conda activate <second_anaconda_envs> (due to dependencies conflict, frontend enviroment must be different from the backend. this frontend enviroment which have streamlit and all frontend code dependencies)
+10. type conda activate <second_anaconda_envs> (due to dependencies conflict, frontend enviroment must be different from the backend. this frontend enviroment should have streamlit and all frontend code dependencies)
 11. streamlit run frontend.py
 12. copy-paste or ctrl + click the given URL from CLI output.
 
