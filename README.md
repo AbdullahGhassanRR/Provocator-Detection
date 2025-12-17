@@ -15,13 +15,13 @@ Several files for the system included:
 0. open the first CLI (e.g. cmd, anaconda prompt) 
 1. type cd path/to/downloaded/files
 2. type conda activate <first_anaconda_envs> (must have uvicorn and all backend code dependencies)
-3. type uvicorn backend:app --reload  
-3.1. copy-paste or ctrl + click the given URl from CLI output
-3.2. on the browser tab, type \docs on the endpoint (e.g. localhost:0000\docs)
-4. klik API that want to interact with 
-5. klik try it out
-6. klik execute
-7. copy request URL, continue to frontend
+3. type uvicorn backend:app --reload
+- 3.1. copy-paste or ctrl + click the given URl from CLI output
+- 3.2. on the browser tab, type \docs on the endpoint (e.g. localhost:0000\docs)
+5. klik API that want to interact with 
+6. klik try it out
+7. klik execute
+8. copy request URL, continue to frontend
 
 #### for frontend:
 8. paste request URL in file frontend.py on line where this code written: requests.post(url="<paste-here>", ...)
